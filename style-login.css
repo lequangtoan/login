@@ -1,0 +1,77 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(./images/login.jfif) no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.login-box {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    padding: 0 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.login-box h1 {
+    float: left;
+    font-size: 40px;
+    border-bottom: 5px solid #89ff00;
+    margin-bottom: 50px;
+    padding: 15px 0px;
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #89ff00;
+}
+
+.textbox i {
+    width: 25px;
+    float: left;
+    text-align: center;
+}
+
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    width: 80%;
+    color: #ffffff;
+    font-size: 20px;
+    float: left;
+    margin: 0 15px;
+}
+
+.textbox input::placeholder {
+    color: #ffffff;
+}
+
+.bottom-login {
+    width: 100%;
+    background: none;
+    outline: none;
+    border: 2px solid #89ff00;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 15px 0;
+}
+
+.bottom-login:hover {
+    background: #89ff00;
+    color: #000000;
+    border: 2px solid #ffffff;
+}
